@@ -9,38 +9,56 @@
 ## Directories
 
 ```text
-MYNN
-│  README.md
+MynnProject
+│  mnist.py
+│  __init__.py
 │
-├─autograd
-│  │  myautograd.py
-│  │  ops.py
-│  └─__init__.py
-│  
 │
-├─datasets
-│  │  dataloader.py
-│  │  dataset.py
-│  └─__init__.py
-│  
+├─c_files
+│      im2col.c
+│      im2col.dll
+│      pool.c
+│      pool.dll
 │
-├─losses
-│  │  lossfunctions.py
-│  └─__init__.py
+├─models
+│      mnist_cnn_20260401.npz
 │
-├─nn
-│  │  activations.py
-│  │  linear.py
-│  │  mlp.py
-│  │  module.py
-│  └─__init__.py
-│
-├─optim
-│  │  optimizer.py
-│  └─__init__.py
-│
-└─tests
-        mlp_test.py
+└─Mynn
+    │  __init__.py
+    │
+    ├─autograd
+    │  │  myautograd.py
+    │  │  ops.py
+    │  └─__init__.py
+    │
+    ├─datasets
+    │  │  dataloader.py
+    │  │  dataset.py
+    │  └─__init__.py
+    │
+    ├─losses
+    │  │  lossfunctions.py
+    │  │  regularization.py
+    │  └─__init__.py
+    │
+    ├─mynn
+    │  │  activations.py
+    │  │  cnn.py
+    │  │  convolution.py
+    │  │  flatten.py
+    │  │  linear.py
+    │  │  mlp.py
+    │  │  module.py
+    │  │  pooling.py
+    │  │  save_load.py
+    │  └─__init__.py
+    │
+    ├─optim
+    │  optimizer.py
+    └─__init__.py
+     
+
+
 ```
 
 ## Requirement and Environment
